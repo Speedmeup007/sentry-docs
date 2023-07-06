@@ -10686,7 +10686,7 @@ mdast-util-footnote@^0.1.0:
     mdast-util-to-markdown "^0.6.0"
     micromark "~2.11.0"
 
-mdast-util-from-markdown@^0.8.0:
+mdast-util-from-markdown@^0.8.0, mdast-util-from-markdown@^0.8.4:
   version "0.8.5"
   resolved "https://registry.yarnpkg.com/mdast-util-from-markdown/-/mdast-util-from-markdown-0.8.5.tgz#d1ef2ca42bc377ecb0463a987910dae89bd9a28c"
   integrity sha512-2hkTXtYYnr+NubD/g6KGBS/0mFmBcifAsI0yIWRiRo0PjVs6SSOSOdtzbp6kSGnShDN6G5aWZpKQ2lWRy27mWQ==
@@ -10799,7 +10799,7 @@ mdast-util-to-nlcst@^4.0.0:
     unist-util-position "^3.0.0"
     vfile-location "^3.1.0"
 
-mdast-util-to-string@^1.0.5, mdast-util-to-string@^1.0.7, mdast-util-to-string@^1.1.0:
+mdast-util-to-string@^1.0.5, mdast-util-to-string@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.1.0.tgz#27055500103f51637bd07d01da01eb1967a43527"
   integrity sha512-jVU0Nr2B9X3MU4tSK7JP1CMkSvOj7X5l/GboG1tKRw52lLF1x2Ju92Ms9tNetCcbfX3hzlM73zYo2NKkWSfF/A==
@@ -13056,13 +13056,15 @@ relay-runtime@12.0.0:
     fbjs "^3.0.0"
     invariant "^2.2.4"
 
-remark-deflist@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/remark-deflist/-/remark-deflist-0.2.1.tgz#493ab02270ed89557bc7af228c63df538c5f2f1e"
-  integrity sha512-8cdfc3X0ZPKGUsVgdJy48iCFkhNtvrMc0ue8XDlplI2qQZA0zeXRoVqG3unYMsa6Lapc97WgxB4fK62XRD6YEw==
+remark-deflist@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/remark-deflist/-/remark-deflist-0.3.0.tgz#392cf331289c5c9690f1cdb8171b304bf85a1075"
+  integrity sha512-LFHJeK5Yel3TuAACdEo4K3rs23xHJFQ/OLnrouJi2OWvmxHtGluCAsuJDrMpwm2P0QQoiGBut+zRdeeORAhUHg==
   dependencies:
-    mdast-util-to-string "^1.0.7"
-    unist-util-visit "^2.0.1"
+    mdast-util-from-markdown "^0.8.4"
+    mdast-util-to-markdown "^0.6.1"
+    mdast-util-to-string "^2.0.0"
+    unist-util-visit "^2.0.3"
 
 remark-footnotes@2.0.0:
   version "2.0.0"
@@ -15063,7 +15065,7 @@ unist-util-visit-parents@^3.0.0, unist-util-visit-parents@^3.1.1:
     "@types/unist" "^2.0.0"
     unist-util-is "^4.0.0"
 
-unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.1, unist-util-visit@^2.0.3:
+unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-2.0.3.tgz#c3703893146df47203bb8a9795af47d7b971208c"
   integrity sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==
