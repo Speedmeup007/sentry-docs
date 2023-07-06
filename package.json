@@ -64,7 +64,7 @@
     "react-helmet": "^5.2.1",
     "react-popper": "^2.2.4",
     "react-select": "^5.7.3",
-    "remark-deflist": "^0.2.1",
+    "remark-deflist": "^0.3.0",
     "sass": "^1.62.1",
     "search-insights": "^2.2.3",
     "stream-browserify": "^3.0.0",
